@@ -48,10 +48,6 @@ right_line:
 mov     ah,00
 int     16h			
 
-mov     ah,00
-mov     al,03 
-int     10h
-
 ret
 
 width   equ 25
